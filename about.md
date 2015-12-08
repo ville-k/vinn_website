@@ -4,8 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+ViNN is a cross platform MIT-licensed C++ library for training and evaluating artificial neural networks using OpenCL. ViNN parallelizes computationally intensive linear algebra routines using OpenCL providing significant performance gains over a single threaded CPU based implementation. Python bindings with NumPy integration ease developing new models and enable interoperability with existing tools and libraries.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+The design goals for ViNN are:
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+* correctness - use gradient checking, static analysis and strive for 100% unit test coverage
+* modularity - for easy integration, extensibility and testing
+* performance - optimize performance critical parts using OpenCL
