@@ -2,7 +2,7 @@
 title: ViNN
 email:
 description: > # this means to ignore newlines until "baseurl:"
-  ViNN is a OpenCL accelerated deep neural networks library for heterogeneous compute environments.
+  ViNN is an OpenCL accelerated deep neural networks library for heterogeneous compute environments.
 baseurl: ""
 url: "http://www.vinn.io"
 twitter_username: ville_ka
